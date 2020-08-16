@@ -1,0 +1,14 @@
+.plan-top{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #3B3432;
+    height: 100px;
+    border-radius: 8px 8px 0 0;
+    padding: 8px;
+    background-color: #A9DDD4;
+    font-size: 125%;
+    text-align: center;
+    line-height: 1.7;
+}
