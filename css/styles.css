@@ -401,6 +401,26 @@ h6, .h6 {
   margin-bottom: 1rem;
 }
 
+.title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+}
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px){
+.small-table {
+    width: 60%;
+}
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -10153,7 +10173,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/selfy.svg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

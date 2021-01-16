@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en"><head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,27 +17,31 @@
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
+ 
+   <!-- Custom styles for this template -->
+   <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+ 
+   <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+   <link href="css/landing-page.min.css" rel="stylesheet">
+   <link href="css/styles.css" rel="stylesheet">
+   <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <div class="navbar"
-      style="
+  <div class="navbar" style="
       z-index:1;
       overflow: hidden;
       background-color: #333;
       position: fixed; 
       top: 0; 
-      width: 100%;"
-  >
+      width: 100%;">
     <div class="container">
-      <a class="navbar-brand" href="about.html"> 会社概要　</a>
-      <a class="navbar-brand" href="services.html">　各種作業プラン　</a>
-      <a class="navbar-brand" href="records.html">　施工事例　</a>
+      <a class="navbar-brand" href="#about"> 会社概要　</a>
+      <a class="navbar-brand" href="#services">　各種作業プラン　</a>
+      <a class="navbar-brand" href="#contact"> お問い合わせ　</a>
     </div>
   </div>
 
@@ -47,11 +49,15 @@
   <header class="masthead text-white text-center">
     <div class="overlay"></div>
     <div class="container">
-      <div class="row">
+      <div class="row" style="margin-top: 300px;">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">ホームページ</h1>
+          <h1 style="color:#33f566">RS塗工センター</h1>　
+          <h3 style="color:#70f743" class="mb-5">〜トータル住宅メンテナンス〜</h3>
           <div class="mb-5">
-            <h1> Ads here </h1>
+            <h2> お家のメンテナンス承ります！！<br>
+              地域密着、安心のクオリティ<br>
+              鎌ヶ谷、船橋、白井
+            </h2>
           </div>
 
         </div>
@@ -60,184 +66,284 @@
     </div>
   </header>
 
+  <!-- 作業プラン -->
+<div class="text-center">
+  <div class="title-box">
+    <img src="assets/img/check.png" width="100" height="100">
+    <h1 id="services" style="margin-left:-50px;">　営業内容ご案内　</h1>
+  </div>
+
+    <ul style="width:60%" class="list-group m-auto list-group-flush">
+      <li class="list-group-item">塗装工事、防水工事</li>
+      <li class="list-group-item">鉄骨工事・制作</li>
+      <li class="list-group-item">大工工事、ハウスクリーニング・除菌</li>
+      <li class="list-group-item">電気工事、エアコン除去・取り付け</li>
+    </ul>
+
+  <div class="title-box">
+    <img src="assets/img/news3.png" width="100" height="100">
+    <h1 style="margin-left:-50px;">　主要サービス料金　</h1>
+  </div>
+         
+  <div class="main-menu">
+
+        <div class="small-table">
+          <div class="plan-top mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              
+            </div>
+            <h3>塗装工事</h3>
+          </div>
+          <p class="lead mb-2 mx-1">坪数に関しては柔軟に対応できますので、ご気軽に見積もりご依頼下さい。</p>
+          <div class="con1 ml-auto mr-auto" style="display: flex;
+          justify-content: center;
+          flex-direction: column;
+          ;">
+            
+            <div class="pr-1 pl-1 text-align:center;"> 
+              <div class="mx-auto mb-3  d-flex" style="width:90%; border: 1px solid #3B3432;">
+                <div class="col-4" style="background-color: #EADCCB"> 30坪 </div>
+                <div class="col-6">55万 ~ </div>
+              </div>
+              
+            </div>
+          </div>
+
+
+        </div>
+      
+        <div class="small-table">
+          <div class="plan-top mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              
+            </div>
+            <h3>エアコン取り付け</h3>
+          </div>
+          <p class="lead mb-2 mx-1"></p>
+          <div class="con1 ml-auto mr-auto" style="display: flex;
+          justify-content: center;
+          flex-direction: column;
+          ;">
+
+            <div class="pr-1 pl-1 text-align:center;"> 
+              <div class="mx-auto mb-3 d-flex" style="width:90%; border: 1px solid #3B3432;">
+                <div class="col-4" style="background-color: #EADCCB"> １台 </div>
+                <div class="col-6">10,000円 </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="small-table">
+          <div class="plan-top mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              
+            </div>
+            <h3>エアコンクリーニング</h3>
+          </div>
+          <p class="lead mb-0 mx-1">1台目以降、追加注文される場合は、１台毎に1000円づつ値引きさせて頂きます！</p>
+          <div class="con1 ml-auto mr-auto" style="display: flex;
+          justify-content: center;
+          flex-direction: column;
+          ;">
+            
+
+            <div class="pr-1 pl-1 text-align:center;"> 
+              <div class="mx-auto d-flex" style="width:90%; border-top: 1px solid #3B3432; border-right: 1px solid #3B3432; border-left: 1px solid #3B3432">
+                <div class="col-4" style="background-color: #EADCCB"> １台 </div>
+                <div class="col-6">12,000円</div>
+              </div>
+              <div class="mx-auto mb-3 d-flex" style="width:90%; border: 1px solid #3B3432;">
+                <div class="col-4" style="background-color: #EADCCB"> ２台目から </div>
+                <div class="col-6">１台毎に1000円引き </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+    <p class="lead mb-0 mx-1 mt-3">
+      他にもできる事は沢山あります。柔軟に対応させて頂きますので、お気軽にご相談ください。<br>
+      見積もり無料！！まずはお電話ください。 RS塗工センター　090-2566-5873
+    
+  </p></div>
+
+  
+  <!-- Testimonials -->
+  <div class="text-center bg-light mb-3 mt-5">
+    <div class="container">
+      <div class="title-box">
+        <img src="assets/img/news2.png" width="100" height="100">
+        <h1 style="margin-left:-10px;">代表プロフィール</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img style="width:200px; height:200px;" class="rounded-circle mb-3" src="img/face.svg" alt="">
+            <h5>RS塗工センター代表　深井 憂希</h5>
+            
+          </div>
+        </div>
+        <div class="col-lg-12">
+            
+        </div>
+      </div>
+    </div>
+  </div>  
+
 
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
-    <h1 class="mb-5">施工事例</h1>
+  <div class="bg-light text-center">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="d-block">
-              <img class="rounded-circle" src="https://picsum.photos/200" >
-            </div>
-            <h3>T様宅</h3>
-            <p class="lead mb-0">船橋市</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="d-block">
-              <img class="rounded-circle" src="https://picsum.photos/200" >
-            </div>
-            <h3>T様宅</h3>
-            <p class="lead mb-0">船橋市</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="d-block">
-              <img class="rounded-circle" src="https://picsum.photos/200" >
-            </div>
-            <h3>T様宅</h3>
-            <p class="lead mb-0">船橋市</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <h2>深井の想い</h2>
+      <br>
+      <p><strong>葛藤の末、最後に残った塗装職人としての自信と情熱<br>
+        悩んでもがいて生きてきたからこそ、
+        塗装屋として生きていく決意ができました。</strong></p>
+        <br>
+        中学卒業後、高校を中退し、鉄骨工場での溶接などを学びました。
+        特にやりがいを見出せたわけでもなく、2年で退職し
+        １9歳の時、塗装工としてのキャリアをスタートさせました。<br>
+        その２年後子供を授かり、嬉しい反面、父としての責任と自覚を持たなければ！と強く思ったことを覚えています。<br>
+        さらなるスキルアップを求め、２社目の塗装店へ転職しましたが、
+        そこで塗装工として初めての挫折を味わいました。<br>
+        <br>
+        <p><strong>挫折と成長</strong></p>
+        1社目の塗装店の技術が全く通用しなかったのです。
+        当時の親方に叱られ足場の上で泣かされたこともありました。<br>
+        しかし、本来の目的である”スキルアップ”のためには、またとない機会だと
+        自分に言い聞かせ、毎日必死に食らいついていたのを今でも覚えています。
+        努力の甲斐もあってか、
+        徐々に現場を任されるようになりました。<br>
+        塗装工としての自分の技術力にも、すでに自信が持てるようになっており、
+        親方とは常々人間的に馬が合わないと感じていたため、退職して独立しようと考えていました。<br>
+        <br>
 
-  <!-- Image Showcases -->
-  
-  <section class="showcase">
-    <div class="mb-5 mt-5" style="height: 3rem">
-      <h3 class="text-center">弊社の強み</h3>
-    </div>
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
+        <p><strong>迷いと葛藤</strong></p>
+        その矢先、妻が２人目を身ごもり、独立はリスクが高いと父からの説得を受け、
+        父の協力会社に入社し、機械のメンテナンスの仕事に就きました。<br>
+        しかし、その時初めて塗装工から離れ、いかに自分が塗装工という仕事にやりがいを感じていたかを思い知らされることになります。
+        メンテナンス会社に居ても塗装業のことが忘れられなかったのです。
+        私は仕事の合間を縫って、アルバイトとして塗装工を続けました。<br>
+        <br>
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Plan introduction -->
-  <section class="features-icons bg-light text-center">
-    <h1 class="mb-5">各種塗装サービスの案内</h1>
+        <p><strong>転機</strong></p>
+        しばらくそんな生活を続ける中、以前働いていた塗装会社の先輩とお会いする機会があり、<br>
+        安定した父親の元での機会メンテナンスの仕事と、自分の塗装業に対する情熱との間で揺れている現状を相談してみました。<br>
+        先輩はシンプル、かつ的確な助言をくれました。
+        <br>
+        <br>"お前は塗れるんだから、1人でやっちゃえば？”<br>
+        <br>何気ない一言でしたが、とにかくその一言が当時の僕には刺さりました。<br>
+        そこから塗装屋として独立することを決意し、2020年5月、晴れて塗装店開業となりました。<br>
+        紆余曲折を経て、キャリアを再開させた今、塗装業へ携われる喜びを日々感じ、毎日が充実しております。
+        散々悩んで迷ってきたからこそ、塗装工を極め、この先もずっと精進していくんだ。という揺るぎない想いがあります。
+        塗装工という仕事に対する情熱を持ち、確かな技術の基、お客様に満足して頂くため、一切の妥協はしません。<br>
+
+        <br>安心してRS塗工センターにお任せ下さい。<br>
+
+        代表　深井　憂希<p></p>
+
+    </div>
+  </div>
+
+  <!-- 会社概要の見本 -->
+  <div id="about" class="text-center bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="d-block">
-              <img class="rounded-circle" src="https://picsum.photos/200" >
-            </div>
-            <h3>T様宅</h3>
-            <p class="lead mb-0">船橋市</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="d-block">
-              <img class="rounded-circle" src="https://picsum.photos/200" >
-            </div>
-            <h3>T様宅</h3>
-            <p class="lead mb-0">船橋市</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="d-block">
-              <img class="rounded-circle" src="https://picsum.photos/200" >
-            </div>
-            <h3>T様宅</h3>
-            <p class="lead mb-0">船橋市</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <h2 class="mb-3 mt-5">会社概要</h2>
 
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
-    <div class="container">
-      <h2 class="mb-5">会社概要</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-          </div>
-        </div>
-      </div>
+
+      <table style="background-color: white;" class="table">
+        <tbody>
+          <tr>
+            <td>会社名</td>
+            <td>RS塗工センター</td>
+          </tr>
+          <tr>
+            <td>所在地</td>
+            <td>千葉県鎌ヶ谷市3-6-67-18</td>
+          </tr>
+          <tr>
+            <td>TEL・FAX</td>
+            <td>090-2566-5873</td>
+          </tr>
+          <tr>
+            <td>代表者</td>
+            <td>深井憂希</td>
+          </tr>
+          <tr>
+            <td>事業内容</td>
+            <td>建築塗装（建築塗装一般・吹付防水工事）</td>
+          </tr>
+          <tr>
+            <td>建設業許可</td>
+            <td>00県知事　許可　一般-27　第0000号</td>
+          </tr>
+          <tr>
+            <td>資格</td>
+            <td>000000</td>
+          </tr>
+          <tr>
+            <td>沿革</td>
+            <td>0000000</td>
+          </tr>
+        </tbody>
+      </table>  
     </div>
-  </section>
+  </div>
 
   
 
   <!-- Call to Action -->
-  <section class="page-section cta">
+  <div class="page-section cta">
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
-            <h2 class="section-heading mb-5">
+            <h2 id="contact" class="section-heading mb-5">
               <span class="section-heading-lower">営業日</span>
             </h2>
             <p class="address mb-5">
               <em>
-                Monday - Friday
-                <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                月曜日 - 金曜日
+                <span class="ml-auto">9:00 AM to 6:00 PM</span>
               </em>
             </p>
             <p class="address mb-5">
               <em>
-                Saturday, Sunday
-                <span class="ml-auto">Closed</span>
+                土曜日, 日曜日
+                <span class="ml-auto">定休日</span>
               </em>
             </p>
             <p class="address mb-5">
               <em>
-                <strong>1116 Orchard Street</strong>
+                <strong>千葉県鎌ヶ谷市</strong>
                 <br>
-                Golden Valley, Minnesota
+                鎌ヶ谷3-6-67-18
               </em>
             </p>
             <p class="mb-0">
-              <small>
-                <em>Call Anytime</em>
-              </small>
+              <strong>
+                <em>見積もり無料！気軽にお電話ください！</em>
+              </strong>
               <br>
-              (317) 585-8468
+              TEL: 090 - 2566 - 5873
+              <br>
+              FAX: 047 - 445 - 2444
+              <br>
+              E-MAIL: fukakun0724@icloud.com
             </p>
             <button type="button" class="btn btn-primary btn-lg">お問い合わせフォームへ</button>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Footer -->
   <footer class="footer bg-light">
@@ -248,20 +354,20 @@
             <li class="list-inline-item">
               <a href="#">About</a>
             </li>
-            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">⋅</li>
             <li class="list-inline-item">
               <a href="#">Contact</a>
             </li>
-            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">⋅</li>
             <li class="list-inline-item">
               <a href="#">Terms of Use</a>
             </li>
-            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">⋅</li>
             <li class="list-inline-item">
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">© Your Website 2020. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
@@ -290,6 +396,7 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
 
-</html>
+
+
+</body></html>
